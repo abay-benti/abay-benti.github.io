@@ -1,0 +1,46 @@
+baseURL: "https://abay-benti.github.io/"
+languageCode: "en-us"
+title: "Abay Benti"
+theme: "papermod"
+pagination:
+  pageSize: 10
+
+params:
+  defaultTheme: "auto"
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  disableThemeToggle: true
+#  assets:
+#    favicon: "/logo/mylogo.png"
+#    favicon_32: "/logo/mylogo.png"
+#    favicon_16: "/logo/mylogo.png"
+
+  profileMode:
+    enabled: false
+
+  # Header Logo
+  label:
+    enable: true
+#    icon: "/logo/mylogo.png"
+    iconHeight: 60
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Posts"
+      url: "/posts/"
+      weight: 2
+    - name: "Contact"
+      url: "/contact/"
+      weight: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
